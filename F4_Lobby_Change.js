@@ -1,5 +1,5 @@
 document.addEventListener("keyup", (event) => {
-  if (localStorage["uci_changeLobbyKey"])) {} else {
+  if (localStorage["uci_changeLobbyKey"]) {} else {
     localStorage["uci_changeLobbyKey"] = "F4";
   };
   if (localStorage["uci_changeLobbyKey"] == "") {
